@@ -1,5 +1,7 @@
 # Demo Web Chat
 
+## Update from other repo: not authenticate
+   Use uuid generate fake id to chat
 ## Description
 * A web chat made by ReactJS and Firebase.
 * Support login with google account, chat with any user, send text, image and sticker, update avatar and profile.
@@ -14,3 +16,4 @@
 * Clone this project
 * Run `npm install` to install packages
 * Run `npm start` to start the server
+

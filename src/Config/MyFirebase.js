@@ -1,18 +1,20 @@
-import firebase from 'firebase'
+import firebase from "firebase";
 
 const config = {
-    apiKey: 'AIzaSyAC9ZSyvTxU2o5W0jcL0hDvzS4utLuicE8',
-    authDomain: 'flutterchatdemo.firebaseapp.com',
-    databaseURL: 'https://flutterchatdemo.firebaseio.com',
-    projectId: 'flutterchatdemo',
-    storageBucket: 'flutterchatdemo.appspot.com',
-    messagingSenderId: '347976604232'
-}
-firebase.initializeApp(config)
+  apiKey: "YOUR_KEY",
+  authDomain: "YOUR_KEY",
+  databaseURL: "YOUR_KEY",
+  projectId: "YOUR_KEY",
+  storageBucket: "YOUR_KEY",
+  messagingSenderId: "YOUR_KEY",
+  appId: "YOUR_KEY",
+  measurementId: "YOUR_KEY",
+};
+firebase.initializeApp(config);
 firebase.firestore().settings({
-    timestampsInSnapshots: true
-})
+  timestampsInSnapshots: true,
+});
 
-export const myFirebase = firebase
-export const myFirestore = firebase.firestore()
-export const myStorage = firebase.storage()
+export const myFirebase = firebase;
+export const myFirestore = firebase.firestore();
+export const myStorage = firebase.storage();
